@@ -1,8 +1,5 @@
 package game_engine2D;
-/**
- * @author Rod Martin r.martin1@salford.ac.uk
- *
- */
+
 public abstract class GameComponent extends ProcessingEntity{
     public GameComponent(GameObject g) {
 		super(g.parent);
