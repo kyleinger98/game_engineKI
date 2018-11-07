@@ -3,14 +3,10 @@
  */
 package simple_platformer;
 
-import game_engine2D.*;
+import gameEngineKI.*;
 import processing.core.PApplet;
 import processing.core.PVector;
 
-/**
- * @author Rod Martin r.martin1@salford.ac.uk
- *
- */
 public class Player extends Sprite {
 	float speed = 3f;
 	float gravity = 0.1f;
